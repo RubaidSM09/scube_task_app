@@ -23,8 +23,8 @@ void main() {
           theme: ThemeData(
             scaffoldBackgroundColor: AppColors.background,
             appBarTheme: AppBarTheme(
-              backgroundColor: AppColors.background,
-              foregroundColor: AppColors.background,
+              backgroundColor: AppColors.scubeWhite,
+              foregroundColor: AppColors.appBarForeground,
             ),
           ),
         );
