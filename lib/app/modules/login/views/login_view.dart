@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import 'package:get/get.dart';
+import 'package:scube_task_app/app/modules/dashboard/views/dashboard_view.dart';
 import 'package:scube_task_app/common/app_colors.dart';
 import 'package:scube_task_app/common/custom_fonts.dart';
 import 'package:scube_task_app/common/widgets/custom_button.dart';
@@ -121,7 +122,7 @@ class LoginView extends GetView<LoginController> {
                               SizedBox(height: 20.h,),
                           
                               CustomButton(
-                                onTap: () {  },
+                                onTap: () => Get.to(DashboardView()),
                                 padding: EdgeInsets.symmetric(vertical: 18.h,),
                                 color: AppColors.loginBackground,
                                 buttonContent: Row(
