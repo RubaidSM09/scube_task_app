@@ -28,7 +28,7 @@ class LoginView extends GetView<LoginController> {
                     SizedBox(height: 35.h,),
 
                     Image.asset(
-                      'assets/login/scube_logo.png',
+                      'assets/images/login/scube_logo.png',
                       scale: 4,
                     ),
 
@@ -95,8 +95,8 @@ class LoginView extends GetView<LoginController> {
                                   hintText: 'Password',
                                   isObscureText: controller.isSignInPasswordInvisible,
                                   suffixIcon: controller.isSignInPasswordInvisible.value
-                                      ? 'assets/login/invisible.svg'
-                                      : 'assets/login/visible.svg',
+                                      ? 'assets/images/login/invisible.svg'
+                                      : 'assets/images/login/visible.svg',
                                 );
                               }),
                           

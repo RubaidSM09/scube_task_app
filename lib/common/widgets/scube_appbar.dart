@@ -34,7 +34,7 @@ class ScubeAppbar extends StatelessWidget {
             GestureDetector(
               onTap: () => Get.back(),
               child: SvgPicture.asset(
-                'assets/appbar/arrow-left.svg',
+                'assets/images/appbar/arrow-left.svg',
               ),
             ),
 
@@ -51,7 +51,7 @@ class ScubeAppbar extends StatelessWidget {
                 clipBehavior: Clip.none,
                 children: [
                   SvgPicture.asset(
-                    'assets/appbar/bell.svg',
+                    'assets/images/appbar/bell.svg',
                   ),
 
                   Positioned(

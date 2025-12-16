@@ -16,7 +16,15 @@ class AppColors {
   static const Color dashboardText2 = Color(0xFF979797);
   static const Color dashboardCircularContainerBlue = Color(0xFF398FC9);
   static const Color dashboardContainerBg = Color(0xFF6C99B8);
+  static const Color dashboardContainerBg2 = Color(0xFFE5F4FE);
   static const Color dividerColor = Color(0xFFA5A7B9);
+  static const Color dashboardData1 = Color(0xFF78C6FF);
+  static const Color dashboardData2 = Color(0xFFFB902E);
+  static const Color inactiveColor = Color(0xFFDF2222);
+  static const Color dashboardGradientColor = Color(0xFF19416E);
+  static const Color dashboardGradientColor2 = Color(0xFF2F548C);
+  static const Color dashboardGradientColor3 = Color(0xFF4E91FD);
+  static const Color dashboardGradientColor4 = Color(0xFF080B7F);
 
   /// MISC
   static const Color scubeWhite = Colors.white;
