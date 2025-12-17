@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+import 'package:scube_task_app/app/modules/data_info/views/data_info_view.dart';
 
 import '../../app_colors.dart';
 import '../../custom_fonts.dart';
@@ -111,7 +113,7 @@ class DataCard extends StatelessWidget {
           ),
 
           GestureDetector(
-            onTap: () {  },
+            onTap: () => Get.to(DataInfoView()),
             child: Icon(
               Icons.arrow_forward_ios_outlined,
               size: 24.r,

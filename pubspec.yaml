@@ -70,6 +70,7 @@ flutter:
     - assets/images/login/
     - assets/images/appbar/
     - assets/images/dashboard/
+    - assets/images/data_info/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

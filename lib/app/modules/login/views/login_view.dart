@@ -95,8 +95,8 @@ class LoginView extends GetView<LoginController> {
                                   hintText: 'Password',
                                   isObscureText: controller.isSignInPasswordInvisible,
                                   suffixIcon: controller.isSignInPasswordInvisible.value
-                                      ? 'assets/images/login/invisible.svg'
-                                      : 'assets/images/login/visible.svg',
+                                      ? 'assets/images/login/invisible.png'
+                                      : 'assets/images/login/visible.png',
                                 );
                               }),
                           

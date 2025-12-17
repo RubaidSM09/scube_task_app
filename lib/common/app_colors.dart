@@ -26,6 +26,13 @@ class AppColors {
   static const Color dashboardGradientColor3 = Color(0xFF4E91FD);
   static const Color dashboardGradientColor4 = Color(0xFF080B7F);
 
+  /// Data Info
+  static const Color progressColor = Color(0xFF55B4FF);
+  static const Color dataBColor = Color(0xFF7BD7FF);
+  static const Color dataCColor = Color(0xFF9747FF);
+  static const Color dataDColor = Color(0xFFFF9A00);
+  static const Color searchButtonColor = Color(0xFFE2EBF1);
+
   /// MISC
   static const Color scubeWhite = Colors.white;
   static const Color scubeBlack = Colors.black;
