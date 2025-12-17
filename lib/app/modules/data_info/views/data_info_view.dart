@@ -33,20 +33,22 @@ class DataInfoView extends GetView<DataInfoController> {
               Obx(() {
                   return Container(
                     width: double.infinity,
-                    color: AppColors.scubeWhite,
-                    padding: EdgeInsets.only(bottom: controller.isDataView.value ? 27.5.h : 130.h),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(20.r),
+                        topRight: Radius.circular(20.r),
+                      ),
+                      color: AppColors.scubeWhite,
+                      border: Border.all(
+                        color: AppColors.dividerColor,
+                      )
+                    ),
+                    padding: EdgeInsets.only(bottom: controller.isDataView.value ? 27.5.h : controller.isDataCostInfoOpen.value ? 130.h : 360.h),
                     child: Stack(
                       clipBehavior: Clip.none,
                       children: [
                         Container(
                           padding: EdgeInsets.symmetric(horizontal: 24.w,),
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.only(
-                              topLeft: Radius.circular(20.r),
-                              topRight: Radius.circular(20.r),
-                            ),
-                            color: AppColors.scubeWhite,
-                          ),
                           child: controller.isDataView.value ? Column(
                             children: [
                               SizedBox(height: 58.h,),
@@ -225,7 +227,7 @@ class DataInfoView extends GetView<DataInfoController> {
                                   borderRadius: BorderRadius.circular(8.r),
                                   color: AppColors.scubeWhite,
                                   border: Border.all(
-                                    color: AppColors.dividerColor,
+                                    color: controller.isDataCostInfoOpen.value ? AppColors.dividerColor : AppColors.scubeTransparent,
                                   ),
                                 ),
                                 child: Column(
